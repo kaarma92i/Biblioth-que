@@ -1,0 +1,55 @@
+/* Style de la page de connexion */
+body {
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(circle at 4.13% 4.13%, #0089ff 0, #0084ff 6.25%, #007eff 12.5%, #0076ff 18.75%, #006cff 25%, #0060ff 31.25%, #5d51ff 37.5%, #8f3dff 43.75%, #b11ef3 50%, #cb00e0 56.25%, #df00cb 62.5%, #ef00b6 68.75%, #fb00a0 75%, #ff0089 81.25%, #ff0073 87.5%, #ff005d 93.75%, #ff0047 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
