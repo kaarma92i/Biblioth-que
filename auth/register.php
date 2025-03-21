@@ -1,8 +1,8 @@
 <?php
-// Démarrer la session si nécessaire
+// Démarre la session si nécessaire
 session_start();
 
-// Initialisation des variables pour éviter les erreurs "Undefined variable"
+// Initialisation des variables pour éviter les erreurs 
 $username = "";
 $username_err = "";
 $password = "";
