@@ -1,4 +1,4 @@
-/* Styles généraux */
+/* style en générale*/
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #667eea, #7126bd);
@@ -54,7 +54,7 @@ span {
     font-size: 14px;
 }
 
-/* Bouton d'inscription */
+/* Bouton pour l'inscription */
 input[type="submit"] {
     width: 100%;
     background: #667eea;
