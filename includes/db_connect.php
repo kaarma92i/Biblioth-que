@@ -1,7 +1,7 @@
 <?php
-$host = 'localhost';     // ou 127.0.0.1
-$user = 'root';          // par défaut root
-$password = '';          // vide si tu utilises XAMPP/WAMP, sinon ton mdp
+$host = 'localhost';     
+$user = 'root';          
+$password = '';         
 $dbname = 'bibliotheque';
 
 $link = mysqli_connect($host, $user, $password, $dbname);
